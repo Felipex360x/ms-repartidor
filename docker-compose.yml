@@ -28,8 +28,8 @@ services:
     depends_on:
       - db-servicio
     environment:
-      - USUARIO_URL=http://18.212.29.123:8080
-      - VEHICULO_URL=http://18.212.29.123:8082
+      - USUARIO_URL=http://172.31.90.100:8080
+      - VEHICULO_URL=http://172.31.90.100:8082
     networks:
       - red_interna_proyecto
     # El comando 'tail -f /dev/null' es un truco técnico.
